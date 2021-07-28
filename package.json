@@ -8,12 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/senati2020/tienda.git"
+    "url": "git+https://github.com/wagnercastillo/Sistema-de-Venta-Online.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/senati2020/tienda/issues"
-  },
-  "homepage": "https://github.com/senati2020/tienda#readme"
+    "url": "https://github.com/wagnercastillo/Sistema-de-Venta-Online.git"
+  }
 }
