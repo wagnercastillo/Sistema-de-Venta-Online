@@ -4,6 +4,8 @@
   "description": "Tienda integrada con DialogFlow",
   "main": "index.js",
   "scripts": {
+    "dev": "cross-env   NODE_ENV=development nodemon src/app.js --exec babel-node",
+    "start": "cross-env NODE_ENV=production node src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -14,5 +16,15 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/wagnercastillo/Sistema-de-Venta-Online.git"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-node": "0.0.1-security",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
   }
 }
